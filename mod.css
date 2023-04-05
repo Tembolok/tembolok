@@ -1,0 +1,141 @@
+body{
+    height: 100%;
+    width: 1280px;
+    background-color: #F8F5FA ;
+    margin: 0;
+}
+header ul{
+    width: 1280px;
+    padding: 0px;
+    z-index: 9999;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    background-color: #6d599b;
+    color: rgb(252, 241, 241);
+}
+header li{
+    float: left;
+}
+header li a{
+    display: block;
+    color: white;
+    padding: 31px;
+}
+header li a:hover:not(.active){
+    background-color: #111;
+}
+.active{
+    background-color: #3c5998;
+}
+.banner {
+    background-color: rgba(0, 0, 0, 0.25);
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bannername {
+    width:max-content;
+    margin-left: 50%;
+    margin-right: 50%;
+    padding: 20px 40px;
+    background-color: hsla(246, 31%, 26%, 0.5);
+    position: absolute;
+    top: 35%;
+    transform: translate(-50%, -50%);
+}
+div.anibg{
+    transition: transform 60s;
+    margin: 5px;
+    border: 1px solid #6d599b;
+    float: left;
+    width: min-content;
+    padding:5px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+div.anibg:hover{
+    transform: scale(15);
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.bar{
+    color: white;
+    background-color: #6d599b;
+    padding: 15px;
+    
+}
+a{
+    color: rgb(255, 255, 255);
+}
+.bar1{
+    text-align: center;
+    width: 900px;
+    color: #ffffff;
+    background-color: hwb(337 10% 23% / 0.856);
+    padding: 10px;
+    border-radius: 0px;
+}
+
+.bar2{
+    transition: transform .2s;
+    text-align: center;
+    width:800px;
+    color: #ffffff;
+    background-color: #808080;
+    padding: 10px;
+    border-radius: 0px;
+}
+.bar2:hover{
+    transform: scale(112%);
+}
+a{
+    text-decoration: none;
+}
+.desc {
+    text-align: center;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+footer{
+    clear: both;
+    width: 1280px;
+    z-index: 9999;
+    position:relative;
+    list-style-type: none;
+    background-color: #333;
+    color: white;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+  background-color: #6d599b;
+}
+
+/* Middle column */
+.column.middle {
+  width: 75%;
+
+}
